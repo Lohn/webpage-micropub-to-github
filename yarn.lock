@@ -1674,10 +1674,10 @@ fsevents@~2.1.2:
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.1.3.tgz#fb738703ae8d2f9fe900c33836ddebee8b97f23e"
   integrity sha512-Auw9a4AxqWpa9GUfj370BMPzzyncfBABW8Mab7BGWBYDj4Isgq+cDKtx0i6u9jcX9pQDnswsaaOTgTmA5pEjuQ==
 
-fulfills@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/fulfills/-/fulfills-1.0.1.tgz#e02e18e169e46e96cf5fd9d4dd92a597f2857dcf"
-  integrity sha1-4C4Y4WnkbpbPX9nU3ZKll/KFfc8=
+fulfills@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/fulfills/-/fulfills-2.1.1.tgz#e1c6d781efe89a0b9b316b21bef7f055764d4029"
+  integrity sha512-JVKS3lKO14P48EAFtz0HjGaNVlz9OhXKyPwlWoXk1n9rPT2tx5Iw2jDoP/YA0KG8NLYm9lO5MuVyAk8clnx+LQ==
 
 function-bind@^1.1.1:
   version "1.1.1"
