@@ -512,7 +512,12 @@ builtins@^2.0.0:
   dependencies:
     semver "^5.4.1"
 
-bunyan-duckling@^1.0.0, bunyan-duckling@^1.0.1:
+bunyan-adaptor@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/bunyan-adaptor/-/bunyan-adaptor-4.0.1.tgz#c0c7b377e0d00f7d5ad6ba3382a2c9acbf979623"
+  integrity sha512-pD7ernr140ZjdPu94u5uCUTVlE1Kpku8WPg5RqH7ycFmM7XmWYbQpL1GGxlDOt/BSAm5TIqG7VrnwvFzIJ3+vQ==
+
+bunyan-duckling@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/bunyan-duckling/-/bunyan-duckling-1.0.2.tgz#81bb1b7840e3fe1981d9656566312f631efec82e"
   integrity sha1-gbsbeEDj/hmB2WVlZjEvYx7+yC4=
@@ -2658,13 +2663,13 @@ micromatch@^3.1.10:
     snapdragon "^0.8.1"
     to-regex "^3.0.2"
 
-micropub-express@^0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/micropub-express/-/micropub-express-0.7.1.tgz#96ef9cba14ce417ea0d11d9a9fab92e5cb50c721"
-  integrity sha1-lu+cuhTOQX6g0R2an6uS5ctQxyE=
+micropub-express@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/micropub-express/-/micropub-express-0.9.1.tgz#da0e36cf90849070efa51269e9134109eec6a24c"
+  integrity sha512-RuDsq1wISB+iovQhzbGFlBVdz3syho/lytmTxSQ5wHrYOrz5THjjJzM4sOh4fh2tuMHPT0lkj2WFYDFmbx7THg==
   dependencies:
     body-parser "^1.13.1"
-    bunyan-duckling "^1.0.1"
+    bunyan-adaptor "^4.0.1"
     express "^4.13.0"
     multer "^1.0.1"
     node-fetch "^1.3.0"
